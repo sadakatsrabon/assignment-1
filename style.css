@@ -19,8 +19,7 @@
     color: black;
     width: 525px;
     display: flex;
-    padding-left: 845px;
-    padding-top: 216px;
+
 }
 
 .secoundery-text {
@@ -29,7 +28,7 @@
     font-size: 16px;
     line-height: 26px;
     color: black;
-    padding-left: 876px;
+    display: flex;
 }
 
 .button-primary {
@@ -43,19 +42,34 @@
 }
 
 /* main section */
+.image {
+    padding-left: 227px;
+    padding-right: 843.22px;
+}
+
 .body-text {
     font-weight: 700;
     font-size: 40px;
     display: flex;
-    text-align: right;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.body-txt {
+    width: 288px;
+    font-weight: 700;
+    font-size: 40px;
+    display: flex;
     padding-left: 862px;
 }
-.third-text{
+
+.third-text {
     width: 416px;
     height: 104px;
     padding-left: 862px;
 }
-.country{
+
+.country {
     width: 349px;
     padding-left: 862px;
 }
@@ -67,7 +81,8 @@
 
 /* gradient section */
 .gradient {
-    background-image: linear-gradient(red);
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
 }
 
 /* footer section */
@@ -78,5 +93,13 @@
 
 .subscription {
     display: flex;
-    text-align: right;
+    align-items: flex-end;
+}
+
+.last-button {
+    color: orange;
+    width: 170.11px;
+    background-color: white;
+    border-radius: 5px;
+    align-items: flex-end;
 }
