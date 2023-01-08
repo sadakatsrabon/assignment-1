@@ -1,0 +1,82 @@
+* {
+    margin: 5;
+
+}
+
+.header {
+    background-image: url('/images/banner/banner1.png');
+    background-repeat: no-repeat;
+    width: 1600px;
+    height: 808px;
+    display: flex;
+}
+
+.header-text {
+    text-align: right;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    color: black;
+    width: 525px;
+    display: flex;
+    padding-left: 845px;
+    padding-top: 216px;
+}
+
+.secoundery-text {
+    text-align: right;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: black;
+    padding-left: 876px;
+}
+
+.button-primary {
+    text-align: right;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: orangered;
+    width: 160px;
+    height: 64px;
+}
+
+/* main section */
+.body-text {
+    font-weight: 700;
+    font-size: 40px;
+    display: flex;
+    text-align: right;
+    padding-left: 862px;
+}
+.third-text{
+    width: 416px;
+    height: 104px;
+    padding-left: 862px;
+}
+.country{
+    width: 349px;
+    padding-left: 862px;
+}
+
+/* my plan section */
+.my-plan {
+    display: flex;
+}
+
+/* gradient section */
+.gradient {
+    background-image: linear-gradient(red);
+}
+
+/* footer section */
+.footer {
+    background-image: url('/images/icons/fb.png'), url('/images/icons/twitter.png'), url('/images/icons/youtube.png');
+    background-repeat: no-repeat;
+}
+
+.subscription {
+    display: flex;
+    text-align: right;
+}
